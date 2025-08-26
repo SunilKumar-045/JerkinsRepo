@@ -1,17 +1,18 @@
 public class Sample{
+public static void testmethod(int a,int b){
+	if(a+b==10){
+		System.out.println("test success");
+	}
+	else{
+		System.out.prinlnt("test fails");
+	}
+}
 	public static void main(String args[]){
 		System.out.println("Hello World");
 		System.out.println("Made changes");
 		System.out.println("Evening update");
 
-Hello hello = new Hello();
-        String result = hello.greet();
-
-        if ("Hello from Jenkins!".equals(result)) {
-            System.out.println("TEST PASSED ✅");
-        } else {
-            System.out.println("TEST FAILED ❌, got: " + result);
-            System.exit(1); // mark pipeline as failed
-        }
+		
+		Sample.testmethod(5,5);
 	}
 }
