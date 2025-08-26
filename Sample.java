@@ -13,6 +13,6 @@ public static void testmethod(int a,int b){
 		System.out.println("Evening update");
 
 		
-		Sample.testmethod(5,15);
+		Sample.testmethod(5,5);
 	}
 }
