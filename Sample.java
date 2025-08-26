@@ -4,7 +4,7 @@ public static void testmethod(int a,int b){
 		System.out.println("test success");
 	}
 	else{
-		System.out.prinlnt("test fails");
+		System.out.println("test fails");
 	}
 }
 	public static void main(String args[]){
