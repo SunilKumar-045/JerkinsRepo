@@ -1,6 +1,6 @@
 public class Sample{
 public static void testmethod(int a,int b){
-	if(a+b==10){
+	if(a+b==200){
 		System.out.println("test success");
 	}
 	else{
@@ -13,6 +13,6 @@ public static void testmethod(int a,int b){
 		System.out.println("Evening update");
 
 		
-		Sample.testmethod(5,10);
+		Sample.testmethod(100,100);
 	}
 }
